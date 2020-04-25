@@ -19,7 +19,7 @@ a {outline: none;}
 .nav-previous a, .nav-next a {text-decoration: none;}
 
 div.entry-meta {font-size: 90%;}
-body.single .shareThisWrapper {margin: 0px 0 20px;}
+body.single .shareThisWrapper {margin: 0 0 20px;}
 .post_entry_mult {
 	border-bottom: 1px solid #999;
 	overflow: hidden;
@@ -92,7 +92,7 @@ h3 {font-size: 16px; text-decoration: underline;}
 	float: right;
 	display: inline;
 	width: 65%;
-	padding: 20px 2% 20px;
+	padding: 20px 2%;
 	background: #f7f7f7;
 	border-radius: 5px;
 	-moz-box-shadow: 0 0 5px #888;
@@ -123,7 +123,7 @@ h3 {font-size: 16px; text-decoration: underline;}
 
 .widgets {margin-bottom:2em; border-bottom:1px solid #ddd;}
 .widget {margin-bottom:2em;}
-.pagination {text-align:center; margin:2em auto 1em auto;}
+.pagination {text-align:center; margin:2em auto 1em;}
 .pagination a {padding:3px 8px; border: 1px solid #ddd;}
 
 .alignleft {display:inline; float:left; margin:0 1em 1em 0;}

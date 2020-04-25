@@ -30,7 +30,7 @@ a {outline: none;}
 .nav-previous a, .nav-next a {text-decoration: none;}
 
 div.entry-meta {font-size: 90%;}
-body.single .shareThisWrapper {margin: 0px 0 20px;}
+body.single .shareThisWrapper {margin: 0 0 20px;}
 .post_entry_mult {
 	border-bottom: 1px solid #999;
 	overflow: hidden;
@@ -113,7 +113,7 @@ body.fsMenuOn #persistentHeader {
 	width: 100%;
 	max-width: 400px; /*modme*/
 	margin: 0 auto;
-	padding: 20px 20px;
+	padding: 20px;
 	box-sizing: border-box;
 }
 #logo-main img {
@@ -136,9 +136,9 @@ body.fsMenuOn #persistentHeader {
 	-webkit-transition: .3s;
 	font-family: 'Merriweather', serif;
 	display: block;
-	padding: 0 0 7px 0;
+	padding: 0 0 7px;
 	max-width: 300px;
-	margin: 0px auto;
+	margin: 0 auto;
 	font-style: italic;
 }
 .mhCTA2 {
@@ -205,7 +205,7 @@ nav.mm {
 }
 nav.mm > ul > li > a {
 	z-index: 10;
-	padding: 10px 7px 10px;
+	padding: 10px 7px;
 	color: #fff;
 	font-size: 14px;
 	font-weight: bold;
@@ -352,7 +352,7 @@ body.fsMenuOn #wpadminbar, body.fsMenuOn #contact-tab {display: none;}
 		background: #666; /*modme*/
 		color: #fff; /*modme*/
 		display: block;
-		padding: 10px 10px;
+		padding: 10px;
 		font-size: 16px;
 	}
 	.mmi ul a:hover {
@@ -374,7 +374,7 @@ nav.mm_mob {
 	z-index: 9999;
 }
 	nav.mm_mob ul {padding: 0;}
-	nav.mm_mob > ul {padding: 10px 0 10px;}
+	nav.mm_mob > ul {padding: 10px 0;}
 		nav.mm_mob ul li {
 			list-style-type: none;
 			list-style-position: outside;
@@ -526,12 +526,12 @@ nav.mm_mob ul li a {height: auto !important;}
 		overflow: hidden;
 		padding: 15px 20px;
 		max-width: 1800px;
-		margin: 0px auto;
+		margin: 0 auto;
 	}
 	#logo-main {
 		float: left;
 		padding: 0;
-		margin: 11px 0 0 0;
+		margin: 11px 0 0;
 		max-width: 300px;
 		transition: .3s;
 		-webkit-transition: .3s;
@@ -552,8 +552,8 @@ nav.mm_mob ul li a {height: auto !important;}
 	}
 }
 @media screen and (min-width: 1000px) {
-	#wrapper {padding: 130px 0 0 0;}
-	.mhRight {padding: 2px 0 0 0;}
+	#wrapper {padding: 130px 0 0;}
+	.mhRight {padding: 2px 0 0;}
 	.mhCTA2 {
 		display: inline-block;
 		padding: 0 10px 0 0;
@@ -562,17 +562,17 @@ nav.mm_mob ul li a {height: auto !important;}
 	#logo-main {
 		max-width: 310px;
 	}
-	nav.mm > ul > li > a { padding: 10px 18px 10px; }
+	nav.mm > ul > li > a { padding: 10px 18px; }
 }
 @media screen and (min-width: 1120px) {
-	#wrapper {padding: 136px 0 0 0;}
+	#wrapper {padding: 136px 0 0;}
 	#logo-main {max-width: 370px;}
 	.mhRight {
 		width: calc(100% - 370px - 20px);
 		padding: 0;
 	}
 	body.sticky_zone .mhRight {
-		padding: 4px 0 0 0;
+		padding: 4px 0 0;
 	}
 	.mhCTA {font-size: 18px;}
 	.mhCTA2 {font-size: 18px;}
@@ -587,12 +587,12 @@ nav.mm_mob ul li a {height: auto !important;}
 	nav.mm > ul > li > a {padding: 10px 30px;}
 }
 @media screen and (min-width: 1640px) {
-	#wrapper {padding: 169px 0 0 0;}
-	#mainHeader {padding: 20px 20px;}
+	#wrapper {padding: 169px 0 0;}
+	#mainHeader {padding: 20px;}
 	body.sticky_zone #mainHeader {padding: 15px 20px;}
 	#logo-main {
 		max-width: 502px;
-		margin: 10px 0 0 0;
+		margin: 10px 0 0;
 	}
 	body.sticky_zone #logo-main {
 		max-width: 370px;
@@ -600,8 +600,8 @@ nav.mm_mob ul li a {height: auto !important;}
 	.mhRight {
 		width: calc(100% - 502px - 20px);
 	}
-	body.sticky_zone .mhRight {padding: 2px 0 0 0;}
-	.mhCTA {font-size: 21px; padding: 0 0 10px 0;}
+	body.sticky_zone .mhRight {padding: 2px 0 0;}
+	.mhCTA {font-size: 21px; padding: 0 0 10px;}
 	.mhPhone {font-size: 37px;}
 	.mhPhone:before {top: 3px;}
 	.mhCTA2 {font-size: 23px;}
@@ -726,7 +726,7 @@ html.webp .slideBox:before {
 	font-size: 25px;
 	text-transform: uppercase;
 	font-weight: bold;
-	padding: 0 0 5px 0;
+	padding: 0 0 5px;
 	position: relative;
 	transition: .5s;
 	-webkit-transition: .5s;
@@ -744,7 +744,7 @@ html.webp .slideBox:before {
 	font-size: 16px;
 	padding: 0;
 	max-width: 450px;
-	margin: 0px auto;
+	margin: 0 auto;
 	position: relative;
 	transition: .5s;
 	-webkit-transition: .5s;
@@ -844,7 +844,7 @@ html.webp #subslide16 {background-image: url(img/slides/sub/1120/16.webp);}
 	.slideContent {
 		height: 100%;
 		max-width: 1800px;
-		margin: 0px auto;
+		margin: 0 auto;
 		position: relative;
 	}
 	.slideContent:before {
@@ -965,7 +965,7 @@ html.webp #subslide16 {background-image: url(img/slides/sub/1120/16.webp);}
 		background-size: 433px 370px;
 	}
 	.slideHead1 {font-size: 29px; line-height: 1.2;}
-	.slideHead2 {font-size: 51px; line-height: .9; padding: 0 0 15px 0;}
+	.slideHead2 {font-size: 51px; line-height: .9; padding: 0 0 15px;}
 	.slideBody {font-size: 18px;}
 
 	html.no-webp #subslide1 {background-image: url(img/slides/sub/full/1.jpg);}
@@ -1087,7 +1087,7 @@ body.home #caWrapper {border-top: none;}
 		line-height: 1;
 		font-weight: normal;
 		color: #000;
-		padding: 0 0 5px 0;
+		padding: 0 0 5px;
 		transition: 300ms;
 	}
 	.homeTitle{
@@ -1103,7 +1103,7 @@ body.home #caWrapper {border-top: none;}
 	}
 	.article h1 {
 		font-size: 30px;
-		padding: 0 0 20px 0;
+		padding: 0 0 20px;
 		font-family: 'Vollkorn', serif;
 		font-style: italic;
 		color: #333a56;
@@ -1111,7 +1111,7 @@ body.home #caWrapper {border-top: none;}
 	}
 	.article h2 {
 		font-size: 25px;
-		padding: 0 0 10px 0;
+		padding: 0 0 10px;
 		font-family: 'Vollkorn', serif;
 		font-style: italic;
 		color: #1c90bb;
@@ -1196,7 +1196,7 @@ body.home #caWrapper {border-top: none;}
 	.mcTable ul {padding: 0 0 0 30px;}
 	.mcMore {
 		max-width: 264px;
-		margin: 20px auto 0 auto;
+		margin: 20px auto 0;
 		border: 2px solid #52658f;
 		border-radius: 7px;
 		overflow: hidden;
@@ -1215,7 +1215,7 @@ body.home #caWrapper {border-top: none;}
 		width: calc(100% - 71px - 4px);
 		border-top-left-radius: 7px;
 		border-bottom-left-radius: 7px;
-		padding: 7px 0 0 0;
+		padding: 7px 0 0;
 	}
 	.mcMoreArrow {
 		float: right;
@@ -1274,13 +1274,13 @@ body.home #caWrapper {border-top: none;}
 .blog-sidebar{ padding: 0 0 20px; }
 .blog-sidebar h2{
 	font-size: 24px;
-	padding: 0 0 10px 0;
+	padding: 0 0 10px;
 	font-family: 'Open Sans', sans-serif;
 	color: #333a56;
 	text-transform: uppercase;
 }
 .blog-sidebar ul{ padding: 0 0 10px 10px; }
-.blog-sidebar a{ color: #45c0ef; padding: 0 0 5px 0;}
+.blog-sidebar a{ color: #45c0ef; padding: 0 0 5px;}
 .blog-sidebar a:hover {text-decoration: underline; color: #45c0ef;}
 .sb-homeTitle .homeTitle{
 	display: none;
@@ -1291,7 +1291,7 @@ body.home #caWrapper {border-top: none;}
 	text-align: center;
 	border-bottom: 2px solid #52658f;
 	padding: 0 20px 10px 0;
-	margin: 0 0 20px 0;
+	margin: 0 0 20px;
 	transition: 300ms;
 }
 body.home .sb-testimonials{ border: none; }
@@ -1365,7 +1365,7 @@ body.home .sb-testimonials{ border: none; }
 	color: #333a56;
 	font-weight: bold;
 	font-size: 25px;
-	padding: 0 20px 5px 20px;
+	padding: 0 20px 5px;
 	transition: 300ms;
 	font-style: italic;
 }
@@ -1374,7 +1374,7 @@ body.home .sb-testimonials{ border: none; }
 	display: block;
 	text-transform: uppercase;
 	color: #333a56;
-	padding: 0 20px 30px 20px;
+	padding: 0 20px 30px;
 }
 .sbPASSubtitle > span{
 	font-weight: bold;
@@ -1382,7 +1382,7 @@ body.home .sb-testimonials{ border: none; }
 	padding: 0 0 10px;
 	transition: 300ms;
 }
-.sbPASWrap {margin: 0 0 40px 0;}
+.sbPASWrap {margin: 0 0 40px;}
 .sbPASListBox{
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1416,7 +1416,7 @@ html.webp .sbPASListBox{
 	position: absolute;
 	background-color: #328daf;
 	width: calc(100% - 40px);
-	margin: 0px auto;
+	margin: 0 auto;
 	height: 1px;
 	top: 0;
 	left: 20px;
@@ -1427,9 +1427,9 @@ html.webp .sbPASListBox{
 	position: absolute;
 	background-color: #328daf;
 	width: calc(100% - 40px);
-	margin: 0px auto;
+	margin: 0 auto;
 	height: 1px;
-	bottom: 0px;
+	bottom: 0;
 	left: 20px;
 }
 .sbPASList li {
@@ -1443,7 +1443,7 @@ html.webp .sbPASListBox{
 	position: relative;
 	background-color: #328daf;
 	width: calc(100% - 40px);
-	margin: 0px auto;
+	margin: 0 auto;
 	height: 1px;
 	bottom: -5px;
 	left: 0;
@@ -1468,7 +1468,7 @@ html.webp .sbPASListBox{
 	left: 20px;
 	border-radius: 10px;
 }
-.sbPASImg {margin: 0 0 30px 0; display: none;}
+.sbPASImg {margin: 0 0 30px; display: none;}
 .sbPASImg img {
 	display: block;
 	width: 100%;
@@ -1599,7 +1599,7 @@ html.webp .sbPASListBox{
 	body.page-id-14 .headshot {margin: 0 15px 25px 0;}
 }
 @media screen and (min-width: 1600px) {
-	.mcMore {margin: 60px auto 0 auto;}
+	.mcMore {margin: 60px auto 0;}
 }
 @media screen and (min-width: 1640px){
 	#caWrapper {border-top: 18px solid #086283;}
@@ -1645,7 +1645,7 @@ html.webp .sbPASListBox{
 	color: #333a56;
 	font-weight: bold;
 	font-size: 25px;
-	padding: 0 20px 5px 20px;
+	padding: 0 20px 5px;
 	transition: 300ms;
 	font-style: italic;
 }
@@ -1654,7 +1654,7 @@ html.webp .sbPASListBox{
 	display: block;
 	text-transform: uppercase;
 	color: #333a56;
-	padding: 0 20px 30px 20px;
+	padding: 0 20px 30px;
 }
 .pasSubtitle > span{
 	font-weight: bold;
@@ -1695,7 +1695,7 @@ html.webp .pasListBox{
 	position: absolute;
 	background-color: #328daf;
 	width: calc(100% - 40px);
-	margin: 0px auto;
+	margin: 0 auto;
 	height: 1px;
 	top: 0;
 	left: 20px;
@@ -1706,9 +1706,9 @@ html.webp .pasListBox{
 	position: absolute;
 	background-color: #328daf;
 	width: calc(100% - 40px);
-	margin: 0px auto;
+	margin: 0 auto;
 	height: 1px;
-	bottom: 0px;
+	bottom: 0;
 	left: 20px;
 }
 .pasList li {
@@ -1722,7 +1722,7 @@ html.webp .pasListBox{
 	position: relative;
 	background-color: #328daf;
 	width: calc(100% - 40px);
-	margin: 0px auto;
+	margin: 0 auto;
 	height: 1px;
 	bottom: -5px;
 	left: 0;
@@ -1747,7 +1747,7 @@ html.webp .pasListBox{
 	left: 20px;
 	border-radius: 10px;
 }
-.pasImg {margin: 0 0 30px 0;}
+.pasImg {margin: 0 0 30px;}
 .pasImg img {
 	display: block;
 	margin: 0;
@@ -1787,7 +1787,7 @@ html.webp .pasListBox{
 .pasInfo img {
 	display: block;
 	width: 100%;
-	margin: 0 0 20px 0;
+	margin: 0 0 20px;
 }
 .paTitle{
 	display: block;
@@ -1806,7 +1806,7 @@ html.webp .pasListBox{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 14px;
-	margin: 20px 0 0 0;
+	margin: 20px 0 0;
 	padding: 7px;
 	border-radius: 5px;
 	background: #007dab;
@@ -1917,9 +1917,9 @@ html.webp #hpAttWrap {
 	background-image: url(img/attorney/hp_att_bg.webp);
 }
 .hpAttCont {
-	padding:  0 0 30px 0;
+	padding:  0 0 30px;
 	max-width: 1800px;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 .hpAttCont h2 {
 	font-family: 'Vollkorn', serif;
@@ -1932,7 +1932,7 @@ html.webp #hpAttWrap {
 }
 .hpAttImg {
 	max-width: 400px;
-	margin: 0 auto 20px auto;
+	margin: 0 auto 20px;
 }
 .hpAttImg img {
 	display: block;
@@ -2015,13 +2015,13 @@ html.webp #hpAttWrap {
 	display: table-cell;
 	vertical-align: middle;
 }
-.hpBadgeImg {margin: 0px auto;}
+.hpBadgeImg {margin: 0 auto;}
 .hpBadgeImg img {display: block; width: 100%;}
-.hpBadgeImg1 {max-width: 245px; margin: 0px auto;}
-.hpBadgeImg2 {max-width: 89px; margin: 0px auto;}
-.hpBadgeImg3 {max-width: 108px; margin: 0px auto;}
-.hpBadgeImg4 {max-width: 231px; margin: 0px auto;}
-.hpBadgeImg5 {max-width: 297px; margin: 0px auto;}
+.hpBadgeImg1 {max-width: 245px; margin: 0 auto;}
+.hpBadgeImg2 {max-width: 89px; margin: 0 auto;}
+.hpBadgeImg3 {max-width: 108px; margin: 0 auto;}
+.hpBadgeImg4 {max-width: 231px; margin: 0 auto;}
+.hpBadgeImg5 {max-width: 297px; margin: 0 auto;}
 
 
 
@@ -2059,7 +2059,7 @@ html.webp #hpAttWrap {
 	max-width: 628px;
 	position: relative;
 	padding: 0;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 .hpVidsBox1 .hpVideo {overflow: hidden; position: relative;}
 .hpVidsBox1:hover .hpVideoImg img {
@@ -2093,7 +2093,7 @@ html.webp #hpAttWrap {
 .hpVidsBox1 .hpPB {
 	display: block;
 	max-width: 80px;
-	margin: 0px auto;
+	margin: 0 auto;
 	width: 20%;
 }
 .hpVidsBox1 .hpPB img {display: block; width: 100%;}
@@ -2119,16 +2119,16 @@ html.webp #hpAttWrap {
 .hpVidBoxOuter2:hover .hpVidImg img {
 	margin: 0 0 0 -100%;
 }
-.hpVidBoxOuter2 {padding: 0 10px; max-width: 375px; margin: 0px auto;}
+.hpVidBoxOuter2 {padding: 0 10px; max-width: 375px; margin: 0 auto;}
 .hpVidsHeading {
 	font-size: 29px;
-	padding: 0 0 32px 0;
+	padding: 0 0 32px;
 	display: block;
 	font-style: italic;
 	font-family: 'Vollkorn', serif;
 }
 .hpVidBox {
-	margin: 0 auto 25px auto;
+	margin: 0 auto 25px;
 	max-width: 213px;
 	position: relative;
 	padding: 0 20px;
@@ -2173,10 +2173,10 @@ html.webp #hpAttWrap {
 .hpVidBody {
 	color: #fff;
 	font-size: 17px;
-	padding: 0 0 25px 0;
+	padding: 0 0 25px;
 	line-height: 1.5;
 	max-width: 350px;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 .vidMore {
 	display: block;
@@ -2273,7 +2273,7 @@ html.webp .vidMoreArrow:after {
 	.hpVidBody {max-width: 250px;}
 	.hpVidBox {padding: 0 10px;}
 	.hpVidsHeading {font-size: 31px;}
-	.vidMore {margin: 20px auto 0 auto;}
+	.vidMore {margin: 20px auto 0;}
 }
 @media screen and (min-width: 1120px) {
 	#hpVidsWrapper {
@@ -2292,7 +2292,7 @@ html.webp .vidMoreArrow:after {
 	#hpVidsOuterCont {
 		position: relative;
 		max-width: 1800px;
-		margin: 0px auto;
+		margin: 0 auto;
 		transition: .3s;
 		-webkit-transition: .3s;
 	}
@@ -2322,8 +2322,8 @@ html.webp .vidMoreArrow:after {
 }
 @media screen and (min-width: 1640px) {
 	#hpVidsOuterCont:before {left: -87%;}
-	.hpVidsHeading {font-size: 40px; padding: 0 0 60px 0;}
-	.hpVidBody {font-size: 18px; padding: 0 5px 30px 5px;}
+	.hpVidsHeading {font-size: 40px; padding: 0 0 60px;}
+	.hpVidBody {font-size: 18px; padding: 0 5px 30px;}
 	.hpVidBoxOuter2 {max-width: 213px;}
 	.hpPlayButtonOuter {width: 100%;}
 	.hpVidsBox1 {margin: 11px 0 0 65px; width: 627px;}
@@ -2434,7 +2434,7 @@ html.webp .vidMoreArrow:after {
 	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
-	padding: 0 50px 0px 0;
+	padding: 0 50px 0 0;
 	box-sizing: border-box;
 	height: 76px;
 	max-width: 302px;
@@ -2458,13 +2458,13 @@ html.webp .qcForm .submit-button{
 	.qcWrap{ max-width: 900px; margin: 0 auto;  }
 	.qcForm{ text-align: center;}
 	.recaptcha, .qcForm .submit-button{ display: inline-block; vertical-align: top; }
-	.qcForm .submit-button {margin: 10px 0 0 0;}
+	.qcForm .submit-button {margin: 10px 0 0;}
 	.qcTitle {font-size: 32px;}
 }
 @media screen and (min-width: 1120px){
 	#quickContact{ padding: 50px 20px; }
 	.qcWrap{ max-width: 1800px; overflow: hidden; }
-	.qcTitle{ font-size: 40px; /*60*/ padding: 0 0 15px 0;}
+	.qcTitle{ font-size: 40px; /*60*/ padding: 0 0 15px;}
 	.qcLeft{ float: left; width: 45%; box-sizing: border-box; text-align: left;}
 	.qclTitle{ font-size: 30px; /*46*/ padding: 0 0 20px; }
 	.qclBody{ line-height: 1.6; padding: 0 40px 30px 0; font-size: 17px; }
@@ -2486,7 +2486,7 @@ html.webp .qcForm .submit-button{
 	.qclTitle{ font-size: 46px; }
 	.qclBody{ font-size: 18px; padding: 0 50px 35px 0; }
 	.termsStatement{ font-size: 18px; }
-	.qcRight{ /*width: 70%*/; max-width: 1600px; margin: 0 auto;}
+	.qcRight{ /*width: 70%*/ max-width: 1600px; margin: 0 auto;}
 	.qcForm input, .qcForm textarea{ padding: 20px; font-size: 18px; }
 	.qcForm .qcName, .qcForm .qcEmail, .qcForm .qcNumber{ width: calc(33.3% - 9px); }
 	.qcForm .qcEmail{ margin: 0 9px; }
@@ -2568,7 +2568,7 @@ html.webp .mfAddress:before {
 	padding: 5px 20px 10px 45px;
 	text-align: left;
 	border-bottom: 1px solid #fff;
-	margin: 0 0 10px 0;
+	margin: 0 0 10px;
 	position: relative;
 }
 .mfPhone:before {
@@ -2598,7 +2598,7 @@ html.webp .mfPhone:before {
 }
 .fSocials {
 	overflow: hidden;
-	padding: 0 0 10px 0;
+	padding: 0 0 10px;
 	margin: 0 auto;
 	text-align: center;
 	transition: .3s;
@@ -2648,7 +2648,7 @@ html.webp .mfPhone:before {
 
 
 #mmBrandingWrapper {
-	padding: 30px 20px 30px;
+	padding: 30px 20px;
 	font-size: 0;
 	text-align: center;
 	background: #086283;
@@ -2688,7 +2688,7 @@ html.webp .mfPhone:before {
 }
 #mmBranding br {display: none;}
 .fNav {
-	padding: 20px 0 0 0;
+	padding: 20px 0 0;
 }
 .fNav li {
 	padding: 0;
@@ -2752,13 +2752,13 @@ html.webp .mfPhone:before {
 		vertical-align: bottom;
 	}
 	#mmBranding br {display: inline;}
-	.fSocials {border-top: 1px solid #fff; padding: 15px 0; max-width: 500px; margin: 0px auto;}
+	.fSocials {border-top: 1px solid #fff; padding: 15px 0; max-width: 500px; margin: 0 auto;}
 	.fs {margin: 0 20px;}
 }
 @media screen and (min-width: 1000px){
 	#mmBrandingWrapper{ text-align: center; }
 	#mmBranding, .fNav{ display: inline-block; }
-	#mmBranding p{ text-align: center; padding: 0 35px 0 35px; vertical-align: middle; }
+	#mmBranding p{ text-align: center; padding: 0 35px; vertical-align: middle; }
 	.mfAddress {padding: 5px 150px 10px 45px;}
 	.fSocials {max-width: 700px;}
 }
@@ -2782,7 +2782,7 @@ html.webp .mfPhone:before {
 	.mfTitle{ font-size: 22px; }
 	.mfMap{
 		float: right;
-		margin: 30px 0 0 0;
+		margin: 30px 0 0;
 		width: calc( 100% - 480px - 10px );
 	}
 	body.page-template .mfMap {
@@ -2800,7 +2800,7 @@ html.webp .mfPhone:before {
 	body.page-template .mfContactBox {
 		padding: 38px 0 0;
 	}
-	.mfMap {margin: 16px 0 0 0;}
+	.mfMap {margin: 16px 0 0;}
 }
 @media screen and (min-width: 1400px) {
 	.mfContact {max-width: 1360px;}
@@ -2832,7 +2832,7 @@ html.webp .mfPhone:before {
 	top: 240px;
 	height: 98px;
 }
-#contact-tab:hover img {margin: -98px 0 0 0;}
+#contact-tab:hover img {margin: -98px 0 0;}
 #contact-tab img {display: block;}
 
 /* Contact Form Styling */
