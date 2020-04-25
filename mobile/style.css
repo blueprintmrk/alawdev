@@ -31,7 +31,7 @@ a {outline: none;}
 .nav-previous a, .nav-next a {text-decoration: none;}
 
 div.entry-meta {font-size: 90%;}
-body.single .shareThisWrapper {margin: 0px 0 20px;}
+body.single .shareThisWrapper {margin: 0 0 20px;}
 .post_entry_mult {
 	border-bottom: 1px solid #999;
 	overflow: hidden;
@@ -380,7 +380,7 @@ html.webp .homeslide .cont_slide {
 
 /*  < mobile_content >  */
 .mobile_content {
-	padding: 10px 0 10px;
+	padding: 10px 0;
 	width: 100%;
 	font-size: 0;
 	line-height: 1;
@@ -388,7 +388,7 @@ html.webp .homeslide .cont_slide {
 	background: #fff;
 	border-color: #096182;
 	border-style: solid;
-	border-width: 5px 0 5px 0;
+	border-width: 5px 0;
 }
 .mobile_link_list {
 	margin: auto;
@@ -696,7 +696,7 @@ li {list-style-type: none; list-style-position: outside;}
 	margin: auto;
 }
 .article {
-	padding: 20px 20px 0 20px;
+	padding: 20px 20px 0;
 	color: #000;
 	font-family: 16px/1.5px Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -720,7 +720,7 @@ li {list-style-type: none; list-style-position: outside;}
 		line-height: 1;
 		font-weight: normal;
 		color: #000;
-		padding: 0 0 5px 0;
+		padding: 0 0 5px;
 		transition: 300ms;
 	}
 	.homeTitle {
@@ -736,7 +736,7 @@ li {list-style-type: none; list-style-position: outside;}
 	}
 	.article h1 {
 		font-size: 30px;
-		padding: 0 0 20px 0;
+		padding: 0 0 20px;
 		font-family: 'Vollkorn', serif;
 		font-style: italic;
 		color: #333a56;
@@ -752,7 +752,7 @@ li {list-style-type: none; list-style-position: outside;}
 	}
 	.article h2 {
 		font-size: 25px;
-		padding: 0 0 10px 0;
+		padding: 0 0 10px;
 		font-family: 'Vollkorn', serif;
 		font-style: italic;
 		color: #1c90bb;
@@ -833,7 +833,7 @@ li {list-style-type: none; list-style-position: outside;}
 }
 .sxn_practice_areas h3 {
 	display: block;
-	padding: 10px 0 10px;
+	padding: 10px 0;
 	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -880,7 +880,7 @@ li {list-style-type: none; list-style-position: outside;}
 	background: #fff;
 	border-color: #43cafd;
 	border-style: solid;
-	border-width: 5px 0 5px 0;
+	border-width: 5px 0;
 }
 .sxn_badges .sxn_wrap {
 	padding: 0;
@@ -893,7 +893,7 @@ li {list-style-type: none; list-style-position: outside;}
 }
 .sxn_badges .element_slide .slide_cont {
 	display: none;
-	padding: 0 10px 0;
+	padding: 0 10px;
 	height: 100%;
 	list-style: none;
 }
@@ -910,7 +910,7 @@ li {list-style-type: none; list-style-position: outside;}
 }
 .sxn_badges .element_slide .slide_cont span img {
 	display: inline-block;
-	margin: 0 6px 0;
+	margin: 0 6px;
 	width: 100%;
 	height: auto;
 	vertical-align: middle;
@@ -950,7 +950,7 @@ li {list-style-type: none; list-style-position: outside;}
 	height: 100%;
 	width: 100%;
 }
-.rotating_slides.get_height { height: 0px; }
+.rotating_slides.get_height { height: 0; }
 .rotating_slides.get_height .slide_cont { position: relative; display: block; height: auto; }
 /*  </ rotating_slides >  */
 
