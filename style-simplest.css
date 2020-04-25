@@ -1,0 +1,314 @@
+/* Universal Begins */
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+*/
+
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+header,nav,article,footer,section,aside,figure,figcaption{display:block}
+
+a {outline: none;}
+
+#nav-below {margin: 10px 0; overflow: hidden;}
+.nav-previous, .nav-next {float: left; display: inline; width: 50%;}
+.nav-next {float: right;text-align: right;}
+.nav-previous a, .nav-next a {text-decoration: none;}
+
+div.entry-meta {font-size: 90%;}
+body.single .shareThisWrapper {margin: 0px 0 20px;}
+.post_entry_mult {
+	border-bottom: 1px solid #999;
+	overflow: hidden;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+	.post_entry_mult_left {float: left; display: inline; width: 150px;}
+	.post_entry_mult_right {padding-left: 160px;}
+	.post_entry_mult .shareThisWrapper {margin: 0;}
+	div.post_entry_mult h2 {padding-bottom: 0; margin-bottom: 0;}
+	.excerpt_meta {font-size: 80%; margin: 0 0 10px;}
+.postThumbSingle {float: left; margin: 5px 10px 0 0;}
+.tag-links {display: block;}
+.google-map {height: 350px;margin: 0 0 25px; border: 1px solid #333;}
+/* Universal Ends */
+
+/* simplest */
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset {margin-bottom:1em;}
+ul, ol {margin-left: 30px;}
+ol li {list-style-type: decimal;}
+ul li {list-style-type: disc;}
+dt {margin:1em 0; font-weight:bold;}
+dd {margin:0 1em; padding-left:1em; border-left:1px solid #ddd;}
+th, td {padding:0.5em; border:1px solid #ddd;}
+blockquote {margin:0 1em; padding-left:1em; border-left:1px solid #ddd;}
+pre {font-family:monospace; background:#f8f8ff; padding:0.5em; overflow:auto;}
+sup, sub {height:0; line-height:1; vertical-align:baseline; position:relative; font-size:10px;}
+sup {bottom:1ex;}
+sub {top:0.5ex;}
+.left {float:left;}
+.right {float:right;}
+.clear {clear:both;}
+
+body {
+	color:#111;
+	font-size: 15px;
+	line-height: 1.3;
+}
+strong {font-weight: bold;}
+em {font-style: italic;}
+strong em, em strong {font-weight: bold; text-decoration: underline;}
+a {color:#1D69C2; text-decoration: underline;}
+a:hover {text-decoration: none;}
+p {line-height:1.3em;}
+#logo-main {
+	font-size: 1.7em;
+	display: block;
+	text-decoration: none;
+	margin-bottom: 20px;
+	color: #365CBB;
+}
+	#logo-main:hover {color: #333;}
+h1 {font-size: 22px;}
+h2 {font-size: 18px; font-weight: bold;}
+h3 {font-size: 16px; text-decoration: underline;}
+
+#container {max-width: 980px; margin: 0 auto; padding: 30px 10px 15px;}
+#header #description {margin-top:-1.5em;}
+#header li {display:inline; margin:0 0.5em 0 0;}
+#content {
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+#sidebar {
+	float: left;
+	display: inline;
+	width: 25%;
+}
+#mainContent {
+	float: right;
+	display: inline;
+	width: 65%;
+	padding: 20px 2% 20px;
+	background: #f7f7f7;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	box-shadow: 0 0 5px #888;
+	margin: 5px;
+}
+	.headshot {
+		float: left;
+		margin: 0 15px 5px 0;
+		width: 40%;
+		max-width: 200px;
+	}
+	#shareThisPage {clear: both; border-top: 1px solid #2a3868; padding: 20px 0 0; margin: 15px 0 0;}
+	#shareThisPageHead {display: inline-block; font-size: 16px; line-height: 1; font-weight: normal; text-transform: uppercase; margin: 0 10px 0 0;}
+	#shareThisPage .shareThisWrapper {display: inline-block;}
+	.shareThisWrapper {font-size: 0;}
+	.dskSharingIcon {width: 16px; height: 16px; display: inline-block; margin: 0 14px 0 0; overflow: hidden;}
+	.dskSharingIcon:hover {opacity: 0.8;}
+	.dskSharingIcon_twitter img{margin: 0 0 0 -16px;}
+	.dskSharingIcon_linkedin img{margin: 0 0 0 -32px;}
+	.dskSharingIcon_googleplus img{margin: 0 0 0 -48px;}
+	.mcTable {margin: 0 0 20px;}
+	.mcTable td {vertical-align: top; display: block; border: 0; padding: 0;}
+	.mcTable ul {padding: 0 0 0 30px; margin: 0;}
+.hentry, .meta, #respond {margin-bottom:2em; padding-bottom:1em; border-bottom:1px solid #ddd;}
+.hentry h2, .hentry h3, .hentry h4 {margin-top:2em;}
+
+.widgets {margin-bottom:2em; border-bottom:1px solid #ddd;}
+.widget {margin-bottom:2em;}
+.pagination {text-align:center; margin:2em auto 1em auto;}
+.pagination a {padding:3px 8px; border: 1px solid #ddd;}
+
+.alignleft {display:inline; float:left; margin:0 1em 1em 0;}
+.alignright {display:inline; float:right; margin:0 0 1em 1em;}
+.aligncenter {display:block; margin:1em auto;}
+.wp-caption {text-align:center; padding:0.5em; background:#ddd;}
+.wp-caption-text, .gallery-caption {font-size:0.7em; margin:3px 0;}
+
+nav#mainMenu {
+	display:block;
+}
+	nav#mainMenu ul {padding: 0; margin: 0;}
+		nav#mainMenu ul ul {padding: 0 0 0 20px;}
+	nav#mainMenu ul li {
+		list-style-type: none;
+		list-style-position: outside;
+		display: block;
+		margin: 0;
+	}
+	nav#mainMenu ul li a {
+		display: block;
+		color: #333;
+		padding: 5px 0;
+		border-bottom: 1px dashed #ccc;
+		text-decoration: none;
+	}
+	nav#mainMenu ul li a:hover {
+		color: #459BFF;
+	}
+
+	nav#mainMenu li.current_page_item > a {
+		color: red;
+	}
+
+/* Contact Form Styling */
+.nc_form {
+	background-color: #f0f0f0;
+	padding: 1.25em 2%;
+	margin: 0 0 1.25em;
+	border: 2px solid #c0c0c0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.nc_form .req {
+	color: #F71704;
+}
+.nc_form label,
+.nc_form input,
+.nc_form textarea,
+.nc_form select {
+	display: block;
+	width: 98%;
+	padding: 0;
+}
+	.nc_form input,
+	.nc_form textarea {
+		background: #fff;
+		color: #8B898C;
+	}
+	.nc_form input,
+	.nc_form textarea,
+	.nc_form .captcha-container {
+		border: 1px solid #999;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.nc_form label {
+		margin: 0 0 .125em;
+	}
+	.nc_form input,
+	.nc_form textarea,
+	.nc_form select {
+		margin: 0 0 10px;
+		padding: .4em 1%;
+	}
+	.nc_form textarea {
+		height:60px;
+	}
+	.nc_form .captcha-container {
+		padding: 0;
+		width: 100%;
+	}
+
+.nc_form input.hidden {
+	display:none;
+}
+.nc_form input.submit-button {
+	cursor:pointer;
+	margin: 1em 0;
+	padding: 0.6em 2%;
+	width:auto;
+	height:auto;
+	background:#555;
+	color:#fff;
+	line-height: 1;
+}
+	.nc_form input.submit-button:hover {
+		background:#777;
+	}
+.nc_form input.error {
+	border-color:#f00;
+}
+.nc_form label.error {
+	color: #f00;
+}
+.ncfDisclaimer {
+	font-size: 80%;
+	margin: 0 0 1em;
+	padding: 0.33em 0 0;
+}
+	.ncfDisclaimer span {
+		display: block;
+		font-weight: bold;
+		font-size: 125%;
+	}
+		.ncfDisclaimer span.req {
+			display: inline;
+			font-size: 80%;
+		}
+	.ncfDisclaimer input {
+		display: inline;
+		width: 10px;
+		height: 10px;
+		margin: 0 5px 0 0;
+	}
+	.ncfDisclaimer label {
+		display: inline;
+	}
+.nc_form .captcha-wrapper {
+}
+	.nc_form .captcha-wrapper input {
+		max-width: 200px;
+	}
+	.nc_form .captcha-container {
+		background: #fff;
+		border: 1px solid #333;
+		margin: 0 0 4px;
+		text-align: center;
+		max-width: 200px;
+	}
+	.nc_form .captcha-image {
+		cursor: pointer;
+		display: block;
+		width: 100%;
+	}
+.nc_form .checkbox {
+	margin: 0 0 10px;
+}
+	.nc_form .checkbox input {
+		display: inline;
+		width: auto;
+		height: auto;
+		padding: 0;
+		line-height: 1;
+		margin: 0 0 0 10px;
+	}
+		.nc_form .checkbox input.delin {
+			margin: 0;
+		}
+.nc_form .radio {
+	margin: 0 0 10px;
+}
+	.nc_form .radio input {
+		display: inline;
+		width: auto;
+		height: auto;
+		padding: 0;
+		line-height: 1;
+		margin: 0 0 0 10px;
+	}
+		.nc_form .radio input.delin {
+			margin: 0;
+		}
+.nc_form .inlineSelect select {
+	display: inline;
+	width: auto;
+}
+
+/* Contact Form - Custom */
+
+/* Contact Form Styling Ends */
+
+@media screen and (min-width: 900px) {
+	.mcTable td {display: table-cell; padding: 0 0 0 40px;}
+	.mcTable td:first-child {padding: 0;}
+}
